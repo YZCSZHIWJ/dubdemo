@@ -6,7 +6,7 @@ public class DemoServiceImpl implements DemoService {
 
     @Override
     public String saySomething(String msg) {
-        return "hello, " + msg + " \nservice_id: 1\n";
+        return "hello, " + msg + " \nservice_id: 3\n";
     }
 
 }
