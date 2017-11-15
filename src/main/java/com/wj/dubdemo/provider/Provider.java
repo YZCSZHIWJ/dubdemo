@@ -12,9 +12,15 @@ public class Provider {
         context.start();
     }
 
+    /**
+     * @Desc:
+     * @Author: wangjian
+     * @Date: 2017/11/15
+     * @Params:
+     */
     public static void main(String[] args) throws IOException {
        Provider provider = new Provider();
        provider.init();
-        System.in.read();
+       System.in.read();
     }
 }
